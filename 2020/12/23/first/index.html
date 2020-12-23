@@ -23,6 +23,8 @@
   
 
   
+    <meta name="description" content="The article has been encrypted, please enter your password to view.">
+  
 
   <!-- feed -->
   
@@ -443,7 +445,20 @@
 
 
   
-  <h1 id="first"><a href="#first" class="headerlink" title="first"></a>first</h1>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<div id="hbe-security">
+  <div class="hbe-input-container">
+  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />
+    <label for="pass">Please enter the password to read the blog.</label>
+    <div class="bottom-line"></div>
+  </div>
+</div>
+<div id="decryptionError" style="display: none;">Incorrect Password!</div>
+<div id="noContentError" style="display: none;">No content to display!</div>
+<div id="encrypt-blog" style="display:none">
+U2FsdGVkX1+g0u7BaMMGRoqpslSUdC5lzPghw1fDa6Y32y2109HSkgpMTtWqLD7GOa9YGiyfJVwUwSx4Gilv6RnNVDqnvOouQ2ywtv1/x6Bj7gnR6K/fm/dvcTk8XPCRA5rbRt1Xe+L0Up0Tmt8AawB99DsKg1Fe8D2VOZjK/AW2xab1ThPXhvCYQHQ756Y+DaOXQN/GoIse0LB760ZvtotUVfWGcQUyFoxREdZOUEJBoS7jTMuUdfKVaxFfoyGW
+</div>
+<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
   
   
     
@@ -499,7 +514,7 @@
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2020/12/23/first/&title=first - Hexo&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2020/12/23/first/&title=first - Hexo&summary=The article has been encrypted, please enter your password to view."
           
           >
           
@@ -511,7 +526,7 @@
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2020/12/23/first/&title=first - Hexo&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2020/12/23/first/&title=first - Hexo&summary=The article has been encrypted, please enter your password to view."
           
           >
           
@@ -523,7 +538,7 @@
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2020/12/23/first/&title=first - Hexo&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2020/12/23/first/&title=first - Hexo&summary=The article has been encrypted, please enter your password to view."
           
           >
           
@@ -589,7 +604,7 @@
 
 
 
-  <section class="widget toc-wrapper shadow desktop mobile" id="toc-div" >
+  <section class="widget toc-wrapper shadow desktop mobile" id="toc-div" style="display:none" >
     
   <header>
     
